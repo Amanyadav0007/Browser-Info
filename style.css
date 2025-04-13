@@ -14,4 +14,38 @@ html, body {
     line-height: 1.5;
     color: #333;
     background-color: #fff;
+    padding: 20px;
+}
+
+.container{
+    padding: 20px;
+    background-color:#2a2a2a;
+    color: #fff;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.info{
+    margin-bottom: 15px;
+}
+
+.info label{
+    font-weight: bold;
+}
+
+.refresh-btn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.5rem;
 }

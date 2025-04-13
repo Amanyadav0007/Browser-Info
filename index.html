@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Browser Info Project</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>I am Aman Yadav, form India!</h1>
-    <p>hiii</p>
+    <div class="container">
+        <h1>Browser Device Info</h1>
+        <div class="info"><label>Browser: </label><span id="browser"></span></div>
+        <div class="info"><label>OS: </label><span id="os"></span></div>
+        <div class="info"><label>Device Type: </label><span id="device-type"></span></div>
+        <div class="info"><label>Screen Resolution: </label><span id="screen-resolution"></span></div>
+        <div class="info"><label>Connection Type: </label><span id="connection-type"></span></div>
+        <div class="info"><label>Device Memory: </label><span id="device-memory"></span></div>
+        <div class="info"><label>Battery Status: </label><span id="battery-status"></span></div>
+        <button class="refresh-btn" onclick="getDeviceInfo()">Refresh Info</button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
